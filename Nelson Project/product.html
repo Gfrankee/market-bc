@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yolo Banking</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- <script src="http://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>-->
+</head>
+<body>
+    <div id="overlay"></div>
+    <div id="mobile-menu" class="mobile-main-menu">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="/product.html">Global Brands</a></li>
+            <li><a href="#">Warehouse</a></li>
+            <li><a href="/prodescription.html">Contact</a></li>
+            <li><a href="#">Tracking</a></li>
+
+           <!-- <li class="mobile-only"><a href="#">Account</a></li>
+            <li class="mobile-only"><a href="#">Cards</a></li>
+            <li class="mobile-only"><a href="#">Loans</a></li>
+            <li class="mobile-only"><a href="#">Ways to Bank</a></li>
+            <li class="mobile-only"><a href="#">Transfer</a></li>
+            <li class="mobile-only"><a href="#">E-Solution</a></li>
+            <li class="mobile-only"><a href="#">Payments</a></li>
+            <li class="mobile-only"><a href="#">Payments</a></li>
+            <li class="mobile-only"><a href="#">Blog</a></li> -->
+            <button class="login">Access your Account</button>
+        </ul>
+    </div>
+    <header class="main-header">
+        <div class="logo">
+            <a href="">
+                <img src="./img/icons8-yolo-50.png" alt="">
+            </a>
+        </div>
+        <nav class="desktop-main-menu">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="/product.html">Global Brands</a></li>
+                <li><a href="#">Warehouse</a></li>
+                <li><a href="/prodescription.html">Contact</a></li>
+                <li><a href="#">Tracking</a></li>
+                <button class="login">Access your Account</button>
+                <!--  <li><a href="#">Payments</a></li>
+                <li><a href="#">Blog</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HAMBURGER MENU -->
+
+    <button id="menu-btn" class="hamburger" type="button">  
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+   </button>
+
+<!--======END OF THE NAVBAR SECTION=========-->
+    
+
+
+<div class = "main-wrapper">
+    <div class = "container">
+        <div class = "main-title">
+            <h1>Products We Distribute</h1>
+        </div>
+        <div class = "display-style-btns">
+            <button type = "button" id = "grid-active-btn">
+                <i class = "fas fa-th"></i>
+            </button>
+            <button type = "button" id = "details-active-btn">
+                <i class = "fas fa-list-ul"></i>
+            </button>
+        </div>
+
+        <div class = "item-list">
+            <div class = "item">
+                <div class = "item-img">
+                    <img src = "./img/woodpellet1.jpg">
+                    <div class = "icon-list">
+                           <!--   <button type = "button">
+                            <i class = "fas fa-sync-alt"></i>
+                        </button> -->
+                        <button type = "button">
+                            <i class = "fas fa-shopping-cart"></i>
+                        </button>
+                     <!--   <button type = "button">
+                            <i class = "far fa-heart"></i>
+                        </button> -->
+                    </div>
+                </div>
+                <div class = "item-detail">
+                    <a href = "/prodescription.html" class = "item-name">Wood Pellet</a>
+                    <div class = "item-price">
+                        <span class = "new-price">$1520.00</span>
+                        <span class = "old-price">$1275.60</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugiat quod corporis delectus sequi laudantium molestias vero distinctio, qui numquam dolore, corrupti, enim consectetur cum?</p>
+                    <button type = "button" class = "add-btn">add to cart</button>
+                </div>
+            </div>
+
+            <div class = "item">
+                <div class = "item-img">
+                    <img src = "./img/firewood.webp">
+                    <div class = "icon-list">
+                           <!--   <button type = "button">
+                            <i class = "fas fa-sync-alt"></i>
+                        </button> -->
+                        <button type = "button">
+                            <i class = "fas fa-shopping-cart"></i>
+                        </button>
+                     <!--   <button type = "button">
+                            <i class = "far fa-heart"></i>
+                        </button> -->
+                    </div>
+                </div>
+                <div class = "item-detail">
+                    <a href = "/prodescription.html" class = "item-name">Firewood</a>
+                    <div class = "item-price">
+                        <span class = "new-price">$780.00</span>
+                        <span class = "old-price">$775.60</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugiat quod corporis delectus sequi laudantium molestias vero distinctio, qui numquam dolore, corrupti, enim consectetur cum?</p>
+                    <button type = "button" class = "add-btn">add to cart</button>
+                </div>
+            </div>
+
+            <div class = "item">
+                <div class = "item-img">
+                    <img src = "./img/wood shaving.webp">
+                    <div class = "icon-list">
+                           <!--   <button type = "button">
+                            <i class = "fas fa-sync-alt"></i>
+                        </button> -->
+                        <button type = "button">
+                            <i class = "fas fa-shopping-cart"></i>
+                        </button>
+                     <!--   <button type = "button">
+                            <i class = "far fa-heart"></i>
+                        </button> -->
+                    </div>
+                </div>
+                <div class = "item-detail">
+                    <a href = "/prodescription.html" class = "item-name">Wood Shaving</a>
+                    <div class = "item-price">
+                        <span class = "new-price">$820.00</span>
+                        <span class = "old-price">$775.60</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugiat quod corporis delectus sequi laudantium molestias vero distinctio, qui numquam dolore, corrupti, enim consectetur cum?</p>
+                    <button type = "button" class = "add-btn">add to cart</button>
+                </div>
+            </div>
+
+            <div class = "item">
+                <div class = "item-img">
+                    <img src = "./img/wood briquettes.jpeg">
+                    <div class = "icon-list">
+                           <!--   <button type = "button">
+                            <i class = "fas fa-sync-alt"></i>
+                        </button> -->
+                        <button type = "button">
+                            <i class = "fas fa-shopping-cart"></i>
+                        </button>
+                     <!--   <button type = "button">
+                            <i class = "far fa-heart"></i>
+                        </button> -->
+                    </div>
+                </div>
+                <div class = "item-detail">
+                    <a href = "/prodescription.html" class = "item-name">Wood Briquettes</a>
+                    <div class = "item-price">
+                        <span class = "new-price">$620.00</span>
+                        <span class = "old-price">$575.60</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugiat quod corporis delectus sequi laudantium molestias vero distinctio, qui numquam dolore, corrupti, enim consectetur cum?</p>
+                    <button type = "button" class = "add-btn">add to cart</button>
+                </div>
+            </div>
+
+            <div class = "item">
+                <div class = "item-img">
+                    <img src = "./img/woodpellet.jpeg">
+                    <div class = "icon-list">
+                           <!--   <button type = "button">
+                            <i class = "fas fa-sync-alt"></i>
+                        </button> -->
+                        <button type = "button">
+                            <i class = "fas fa-shopping-cart"></i>
+                        </button>
+                     <!--   <button type = "button">
+                            <i class = "far fa-heart"></i>
+                        </button> -->
+                    </div>
+                </div>
+                <div class = "item-detail">
+                    <a href = "/prodescription.html" class = "item-name">Wood Chips</a>
+                    <div class = "item-price">
+                        <span class = "new-price">$1220.00</span>
+                        <span class = "old-price">$1075.60</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugiat quod corporis delectus sequi laudantium molestias vero distinctio, qui numquam dolore, corrupti, enim consectetur cum?</p>
+                    <button type = "button" class = "add-btn">add to cart</button>
+                </div>
+            </div>
+
+            <div class = "item">
+                <div class = "item-img">
+                    <img src = "./img/firewood.webp">
+                    <div class = "icon-list">
+                       <!--   <button type = "button">
+                            <i class = "fas fa-sync-alt"></i>
+                        </button> -->
+                        <button type = "button">
+                            <i class = "fas fa-shopping-cart"></i>
+                        </button>
+                     <!--   <button type = "button">
+                            <i class = "far fa-heart"></i>
+                        </button> -->
+                    </div>
+                </div>
+                <div class = "item-detail">
+                    <a href = "/prodescription.html" class = "item-name">Wood Pellet</a>
+                    <div class = "item-price">
+                        <span class = "new-price">$720.00</span>
+                        <span class = "old-price">$675.60</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugiat quod corporis delectus sequi laudantium molestias vero distinctio, qui numquam dolore, corrupti, enim consectetur cum?</p>
+                    <button type = "button" class = "add-btn">add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+       <!--===========Contact Us SECTION Section-->
+<div class="contact">
+       <div class="contact-container">
+        <h1>Connect With Us</h1>
+        <p>We would love to respond to your queries and help you succeed. <br>
+            Feel free ti get in touch with us.
+        </p>
+        <div class="contact-box">
+             <div class="contact-left">
+                <h3>Send Your Request</h3>
+                <form>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <div class="form-group">
+                                <input type="text" class="name" placeholder="Your Name">
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <div class="form-group">
+                                <input type="number" class="phone" placeholder="Your Phone #">
+                            </div>
+                           
+                        </div>
+                    </div>
+
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Email</label>
+                            <div class="form-group">
+                                <input type="text" class="email" placeholder="Your Email">
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Subject</label>
+                            <div class="form-group">
+                                <input type="text" class="phone" placeholder="Subject">
+                            </div>
+                        </div>
+                    </div>
+
+                    <label>Message</label>
+                    <textarea rows="5" placeholder="Your message"></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+             </div>
+             <div class="contact-right">
+                <h3>Reach Us</h3>
+                <table>
+                    <tr>
+                        <td>Email:</td>
+                        <td>Contact@gmail.com</td>
+                    </tr>
+
+                    <tr>
+                        <td>Phone:</td>
+                        <td>+43 638 292 02</td>
+                    </tr>
+
+                    <tr>
+                        <td>Address:</td>
+                        <td>#231 Belami Forest Drive, Denmark </td>
+                    </tr>
+                </table>
+             </div>
+        </div>
+       </div>
+</div>
+
+
+
+ 
+
+
+    <!-- FOOTER SECTION -->
+    <footer>
+    <ul>
+        <li>© 2022, Bagwell's Inc</li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Youtube</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+    </ul>
+</footer>
+
+    <!--==========END OF FOOTER SECTION =============-->
+  
+<script src="script.js"></script>
+
+</body>
+</html>
